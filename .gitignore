@@ -1,0 +1,13 @@
+# Ignorar arquivos de configuração do PyCharm / IntelliJ
+.idea/
+
+# Ignorar arquivos de sistema
+*.pyc
+__pycache__/
+
+# Ignorar ambientes virtuais (se houver)
+venv/
+env/
+
+# Outros arquivos temporários
+.DS_Store
