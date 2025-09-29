@@ -121,24 +121,23 @@ def assistente_virtual():
             else:
                 print("Operacao cancelada")
 
+
         elif comando == "recomendar horário":
             recomendados = []
             for n in range(24):
                 sol_minuto = sol[n] / 60
                 result = escolherhorario(horas[n], radiacao[n], sol_minuto, nuvens[n])
-                if result is None:
+                if result is None:  # se for recomendado
                     recomendados.append(horas[n])
-                if recomendados:
-                    print("Horários recomendados:")
-                    for z in recomendados:
-                        print(" -", z)
+            if recomendados:
+                print("Horários recomendados:")
+                for z in recomendados:
+                    print(" -", z)
             else:
                 print("Nenhum horário ideal encontrado hoje.")
-
         elif comando == "sair":
             print("Desligando assistente virtual...")
             break
-
         else:
             print("Desculpe, não entendi o comando.")
 
