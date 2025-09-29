@@ -41,5 +41,41 @@
         "Carregado": "s",
         "Hora e Dia": null,
         "Energia_AC": 2565.0
+    },
+    {
+        "Nome": "Bateria 8",
+        "Capacidade": 100,
+        "Nivel_inicial": 60,
+        "Nivel_final": 100,
+        "Carregado": "s",
+        "Hora e Dia": null,
+        "Energia_AC": 2850.0
+    },
+    {
+        "Nome": "Bateria 88",
+        "Capacidade": 90,
+        "Nivel_inicial": 60,
+        "Nivel_final": 60,
+        "Carregado": "n",
+        "Hora e Dia": null,
+        "Energia_AC": 1710.0
+    },
+    {
+        "Nome": "Bateria 77",
+        "Capacidade": 100,
+        "Nivel_inicial": 60,
+        "Nivel_final": 60,
+        "Carregado": "n",
+        "Hora e Dia": "Nao definido",
+        "Energia_AC": 1710.0
+    },
+    {
+        "Nome": "Bateria 83",
+        "Capacidade": 100,
+        "Nivel_inicial": 70,
+        "Nivel_final": 70,
+        "Carregado": "n",
+        "Hora e Dia": "2025-09-29T09:00",
+        "Energia_AC": 1995.0
     }
 ]

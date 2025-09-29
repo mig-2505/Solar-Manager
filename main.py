@@ -172,8 +172,6 @@ while True:
     exibirmenu()
     opc = int(input("Opção...: "))
 
-    opc_hora = None  # inicia antes, para nao dar erro no json
-
     if opc == 1:
         # Mostrar recomendações
         for i in range(24):
@@ -223,7 +221,7 @@ while True:
             "Nivel_inicial": nivel_inicial,
             "Nivel_final": nivel_bateria,
             "Carregado": resposta,
-            "Hora e Dia": opc_hora,
+            "Hora e Dia": opc_hora if opc_hora else "Nao definido",
             "Energia_AC": energia_ac
         }
 
